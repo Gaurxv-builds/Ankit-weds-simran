@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-montserrat: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --font-cormorant: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-great-vibes: 'Great Vibes', 'Brush Script MT', cursive;
+  --font-devanagari: 'Noto Serif Devanagari', 'Tiro Devanagari Hindi', 'Mangal', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-devanagari), var(--font-montserrat), sans-serif;
+  background-color: #FAF5EB;
+  color: #24140E;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-devanagari), var(--font-montserrat), sans-serif;
+  background-color: #FAF5EB;
+  color: #24140E;
+  line-height: 1.7;
+}
+
+/* Custom Refined Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF5EB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B88632;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #821422;
+}
+
+/* Authentic Traditional Wedding Card (शुभ विवाह पत्रिका) Paper Frame */
+.patrika-card {
+  background-color: #FFFDF9;
+  border: 2px solid #821422;
+  box-shadow: 
+    0 2px 12px rgba(130, 20, 34, 0.06),
+    0 1px 3px rgba(36, 20, 14, 0.04);
+}
+
+.patrika-inner-border {
+  border: 1px solid rgba(184, 134, 50, 0.55);
+}
+
+/* Traditional Kumkum Maroon Button */
+.btn-patrika-maroon {
+  background-color: #821422;
+  color: #FFFDF7;
+  border: 1px solid #B88632;
+  box-shadow: 0 2px 6px rgba(130, 20, 34, 0.2);
+  transition: all 150ms ease-in-out;
+}
+
+.btn-patrika-maroon:hover {
+  background-color: #6B0E1B;
+  color: #FFFDF7;
+}
+
+.btn-patrika-maroon:active {
+  transform: scale(0.98);
+}
+
+/* Traditional Cream & Maroon Outline Button */
+.btn-patrika-outline {
+  background-color: #FFFDF9;
+  color: #821422;
+  border: 1.5px solid #821422;
+  box-shadow: 0 1px 3px rgba(36, 20, 14, 0.04);
+  transition: all 150ms ease-in-out;
+}
+
+.btn-patrika-outline:hover {
+  background-color: #F7EFE1;
+  color: #6B0E1B;
+}
+
+.btn-patrika-outline:active {
+  transform: scale(0.98);
+}
+
+/* Traditional Photo Frame with Ornate Gold & Maroon Trim */
+.patrika-photo-frame {
+  background-color: #FFFDF9;
+  border: 2px solid #821422;
+  box-shadow: 
+    0 4px 14px rgba(130, 20, 34, 0.1),
+    inset 0 0 0 2px #B88632;
+}
+
+/* Traditional Ribbon / Header Banner */
+.patrika-ribbon {
+  background: linear-gradient(180deg, #911627 0%, #821422 100%);
+  color: #FFFDF7;
+  border-top: 1px solid #B88632;
+  border-bottom: 1px solid #B88632;
+}
