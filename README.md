@@ -1,2 +1,3 @@
-# Ankit-weds-simran
-॥ शुभ विवाह ॥ चिरंजीव अंकित एवं आयुष्मती सिमरन - Traditional Hindi Wedding Invitation Website
+# ॥ शुभ विवाह ॥ — चि. अंकित एवं आयु. सिमरन
+
+पारंपरिक हिंदू विवाह निमंत्रण पत्रिका (शुभ विवाह निमंत्रण पत्रिका) — Next.js 14, Tailwind CSS एवं Noto Serif Devanagari.
